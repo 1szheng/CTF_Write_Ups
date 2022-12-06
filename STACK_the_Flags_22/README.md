@@ -35,19 +35,19 @@ names):
 
 ### Crypto
 
-* [jagacha](Crypto/jagacha/README.md)
+* [jagacha](Crypto/jagacha/)
 
 ### Forensics
 
-* [Hit you with that](Forensics/Hit_you_with_that/README.md)
+* [Hit you with that](Forensics/Hit_you_with_that/)
 
 ### Misc
 
-* [guthib actions](Misc/guthib_actions/README.md)
-* [Jaga Almighty's Grand Adventure](Misc/Jaga_Almighty's_Grand_Adventure/README.md)
-* [HeatKeeb](Misc/HeatKeeb/README.md)
-* [4 Paths of Pain](Misc/4_Paths_of_Pain/README.md)
-* [2 Pain](Misc/2_pain/README.md)
+* [guthib actions](Misc/guthib_actions/)
+* [Jaga Almighty's Grand Adventure](Misc/Jaga_Almighty's_Grand_Adventure/)
+* [HeatKeeb](Misc/HeatKeeb/)
+* [4 Paths of Pain](Misc/4_Paths_of_Pain/)
+* [2 Pain](Misc/2_pain/)
 
 ### OSINT
 
@@ -56,10 +56,10 @@ names):
 
 ### Reversing
 
-* [Quills of Power](Reversing/Quills_of_Power/README.md)
+* [Quills of Power](Reversing/Quills_of_Power/)
 
 ### Web
 
-* [PyRunner](Web/PyRunner/README.md)
-* [Blogpost](Web/Blogpost/README.md)
-* [Blogpost 2](Web/Blogpost_2/README.md)
+* [PyRunner](Web/PyRunner/)
+* [Blogpost](Web/Blogpost/)
+* [Blogpost 2](Web/Blogpost_2/)
