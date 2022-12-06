@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+    white-space: pre-wrap;
+    margin: 10px 0px;
+    width: 600px;
+    height: 300px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 900px;
+    max-width: 900px;
+}
+
+#arguments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#download-template {
+    display: none;
+}

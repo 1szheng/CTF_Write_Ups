@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jaga Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body {% if user.theme == 'dark' %}class="dark"{% endif %}>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="/static/images/jagasuper.png" alt="logo">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/blog" class="nav-link">Blog</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/login" class="nav-link">Login</a>
+        </div>
+    </div>
+    <div class="body max">
+        <div class="form">
+            <img src="/static/images/jagasuper.png" alt="logo">
+            <h1>Jaga Blog</h1>
+            <form class="login-form">
+                <input type="text" name="username" placeholder="Username" onkeydown="inputCheck(this.name)">
+                <input type="password" name="password" placeholder="Password" onkeydown="inputCheck(this.name)">
+                <input type="button" value="Login" class="form-submit login">
+            </form>
+        </div>
+        <div>
+            <p>Don't have an account? Register <a href="/register">here</a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="/static/forms.js"></script>
+    <script src="/static/theme.js"></script>
+</footer>
+</html>

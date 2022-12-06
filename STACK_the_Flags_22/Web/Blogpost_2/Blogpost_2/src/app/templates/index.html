@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jaga Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+    <script src="main.js"></script>
+</head>
+<body {% if user.theme == 'dark' %}class="dark"{% endif %}>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="/static/images/jagasuper.png" alt="logo">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/blog" class="nav-link">Blog</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/login" class="nav-link">Login</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jaga Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body {% if user.theme == 'dark' %}class="dark"{% endif %}>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="/static/images/jagasuper.png" alt="logo">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/blog" class="nav-link">Blog</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/profile" class="nav-link">Profile</a>
+        </div>
+    </div>
+    <div class="body row">
+        <div class="sidenav">
+            <div>
+                <img src="/static/images/default.png" alt="icon" class="icon">
+                <span>{{ user.username }}</span>
+            </div>
+            <a href="/profile">Profile</a>
+            <a href="/post"> Create Post</a>
+            <a href="/settings">Settings</a>
+            <a href="/logout">Logout</a>
+        </div>
+        <div class="posts" id="settings">
+            <div class="post" id="theme">
+                <h1>Theme</h1>
+                <div class="theme-selector">
+                    <span class="theme-switch"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="/static/theme.js"></script>
+    <script src="/static/forms.js"></script>
+</footer>
+</html>
