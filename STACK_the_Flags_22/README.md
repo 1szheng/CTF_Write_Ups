@@ -10,19 +10,28 @@ This is meant for my review in the future, or if it helps anyone out there.
 There are 11 categories in this jeopardy-style CTF (in their challenge portal 
 names):
 
-* Cloud
-* [Crypto](#crypto)
-* [Forensics](#forensics)
-* Hardware
-* Fullpwn
-* [Misc](#misc)
-* Mobile
-* [OSINT](#osint)
-* [Reversing](#reversing)
-* Pwn
-* [Web](#web)
+<table>
+<tr>
+    <td>Cloud</code></td>
+    <td>Crypto</td>
+    <td>Forensics</td>
+    <td>Hardware</td>
+</tr>
+<tr>
+    <td>Fullpwn</td>
+    <td>Misc</td>
+    <td>Mobile</td>
+    <td>OSINT</td>
+</tr>
+<tr>
+    <td>Reversing</td>
+    <td>Pwn</td>
+    <td>Web</td>
+</tr>
+</table>
 
-## Challenges Solved
+
+## 13 Challenges Solved
 
 ### Crypto
 

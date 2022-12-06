@@ -4,7 +4,7 @@ Here is the challenge task:
 
 ![challenge_task](images/Challenge_Task.png)
 
-Files: [`app.py`](HeatKeeb/app.py), [others files](HeatKeeb)
+Files: [`app.py`](HeatKeeb/app.py), [`others files`](HeatKeeb)
 
 ## Process
 
