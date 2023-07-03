@@ -178,7 +178,7 @@ gef➤  continue
 
 GEF shows us that we have successfully stopped at the right location, and
 displays the guessed arguments to `srand()`. As previously seen, this binary
-uses the x86-64 architecture and thus takes in its first argument in the `RSI`
+uses the x86-64 architecture and thus takes in its first argument in the `RDI`
 register. We can set this register to our first seed via 
 `set $rdi=0x3fa6d6a9`.
 
