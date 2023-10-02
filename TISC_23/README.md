@@ -6,11 +6,11 @@ This write up details most of the steps taken while solving the challenges. 5 ch
 
 Challenge | Domain(s)
 --- | ---
-[Level 1 - Disk Archaeology](#level-1disk-archaeology) | Forensics
-[Level 2 - XIPHEREHPIX's Reckless Mistake](#level-2xipherehpixs-reckless-mistake) | Crypto
-[Level 3 - KPA](#level-3kpa) | Mobile
-[Level 4 - Really Unfair Battleships Game](#level-4really-unfair-battleships-game) | Pwn, Misc
-[Level 5 - PALINDROME's Invitation (unsolved)](#level-5palindromes-invitation) | OSINT, Misc
+[Level 1 - Disk Archaeology](#level-1---disk-archaeology) | Forensics
+[Level 2 - XIPHEREHPIX's Reckless Mistake](#level-2---xipherehpixs-reckless-mistake) | Crypto
+[Level 3 - KPA](#level-3---kpa) | Mobile
+[Level 4 - Really Unfair Battleships Game](#level-4---really-unfair-battleships-game) | Pwn, Misc
+[Level 5 - PALINDROME's Invitation (unsolved)](#level-5---palindromes-invitation) | OSINT, Misc
 
 ---
 
